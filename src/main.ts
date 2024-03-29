@@ -1,9 +1,8 @@
 import { obtenPacientesAsignadosAPediatria, obtenPacientesAsignadosAPediatriaYMenorDeDiezAnios, activarProtocoloUrgencia, reasignaPacientesAMedicoFamilia, HayPacientesDePediatria, cuentaPacientesPorEspecialidad } from "./motor";
-import { pacientes } from "./modelo";
 
-console.log(obtenPacientesAsignadosAPediatria(pacientes));
-console.log(obtenPacientesAsignadosAPediatriaYMenorDeDiezAnios(pacientes));
-console.log(activarProtocoloUrgencia(pacientes));
-console.log(reasignaPacientesAMedicoFamilia(pacientes));
-console.log(HayPacientesDePediatria(pacientes));
-console.log(cuentaPacientesPorEspecialidad(pacientes));
+console.log(obtenPacientesAsignadosAPediatria);
+console.log(obtenPacientesAsignadosAPediatriaYMenorDeDiezAnios);
+console.log(activarProtocoloUrgencia);
+console.log(reasignaPacientesAMedicoFamilia);
+console.log(HayPacientesDePediatria);
+console.log(cuentaPacientesPorEspecialidad());
